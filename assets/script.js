@@ -1,6 +1,7 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+var dateTracker = $('#currentDay')
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
@@ -21,3 +22,10 @@ $(function () {
   //
   // TODO: Add code to display the current date in the header of the page.
 });
+/* References Day.js to keep current date and time displayed */
+var updateDate = function() {
+  var now = dayjs().format('MMMM DD, YYYY [at] h:mm:ss A')
+  dateTracker.text(now)
+}
+updateDate()
+setInterval(updateDate, 1000)
