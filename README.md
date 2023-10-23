@@ -8,7 +8,7 @@ The Module 5 Challenge objective was to create a simple calendar application tha
 
 ![deployment-screenshot](./assets/images/deployment-screenshot.JPG)
 
-[Deployment Link]
+[Deployment Link](https://travisfowlston.github.io/Work-Day-Scheduler/)
 
 ## Comments
 
@@ -21,7 +21,7 @@ The Module 5 Challenge objective was to create a simple calendar application tha
 ## Credits
 
 - Starter code was provided by the UC Davis Bootcamp.
-- Project was completed by Travis Fowlston
+- Project was completed by Travis Fowlston.
 
 ## License
 
